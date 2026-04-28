@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+
+
+
+body{
+    background-color: #181C14;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.navbar{
+    background-color: #3C3D37;
+}
+
+.logo{
+    text-shadow: 5px 5px 5px #697565, 0 0 25px #697565, 0 0 5px #697565;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    /* transition: all 0.3s ease-in-out; */
+    transition: transform 0.3s ease-in-out;
+}
+.logo:hover{
+    text-shadow: 5px 5px 5px #ECDFCC, 0 0 25px #ECDFCC, 0 0 5px #ECDFCC;
+    color: black;
+    transform: scale(1.2);
+}
+.logo:active{
+    text-shadow: 5px 5px 5px #181C14, 0 0 25px #181C14, 0 0 5px #181C14;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Sidebar{
+    background-color: #3C3D37;
+}
+
+.Linkn{
+    text-shadow: 5px 5px 5px #697565 ;
+    font-weight: bold;
+        transition: all 0.3s ease-in-out;
+
+}
+
+.btn{
+    text-shadow: 5px 5px 5px #697565 ;
+    font-weight: bold;
+        /* transition: all 0.3s ease-in-out; */
+        transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover{
+    text-shadow: none;
+    box-shadow: 2px 2px 2px #ECDFCC;
+    /* color: black; */
+    background-color: rgba(255, 0, 0, 0.703);
+    translate: scale(1.5);
+}
+
+.Linkn:hover{
+    text-shadow: 5px 5px 5px #ECDFCC, 0 0 25px #ECDFCC, 0 0 5px #ECDFCC;
+    color: black;
+}
+
+.Links{
+    text-shadow: 5px 5px 5px #697565, 0 0 25px #697565, 0 0 5px #697565;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.Links:hover{
+    /* text-shadow: 5px 5px 5px #ECDFCC, 0 0 25px #ECDFCC, 0 0 5px #ECDFCC; */
+    color: black;
+    /* border: 2px solid #181c148a; */
+    background-color: #181c142e;
+    border-radius: 10px;
+}
+
+.Links:active{
+    text-shadow: 5px 5px 5px #181C14, 0 0 25px #181C14, 0 0 5px #181C14;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+ /* .Links:visited{
+   
+    color: black;
+    border: 2px solid #181c148a;
+    background-color: #181c142e;
+    border-radius: 10px;
+} */
+
+
